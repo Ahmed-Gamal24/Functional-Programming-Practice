@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "istream": "cpp",
-    "ratio": "cpp"
-  }
+    "ratio": "cpp",
+    "string": "cpp"
+}
 }
