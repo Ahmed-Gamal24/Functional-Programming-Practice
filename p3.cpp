@@ -1,4 +1,4 @@
-// Required: read the name and print it
+// Required: read number and Print Even Or Odd
 
 #include <iostream>
 #include <string>
@@ -14,17 +14,18 @@ int ReadNumber()
 }
 
 
-enum enCheckNumberType { Even = 1, Odd = 2 };
+enum enNumberType { Even = 1, Odd = 2 };
 
-enCheckNumberType CheckEvenOdd(int num)
+enNumberType CheckEvenOdd(int num)
 {
-    return ( num % 2 == 0 ? enCheckNumberType::Even :enCheckNumberType::Odd);    
+    int result = num % 2;
+    return ( result == 0 ? enNumberType::Even :enNumberType::Odd);    
 }
 
 
-void PrintNumberType(enCheckNumberType numType)
+void PrintNumberType(enNumberType numType)
 {
-    if(numType == enCheckNumberType::Even)
+    if(numType == enNumberType::Even)
         cout << "The Number Is Even" << endl;
     else
         cout << "The Number Is Odd" << endl;
