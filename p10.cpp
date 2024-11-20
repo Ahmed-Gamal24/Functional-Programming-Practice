@@ -8,7 +8,7 @@ using namespace std;
 
 
 
-void ReadThreeNums(float &Num1, float &Num2, float &Num3)
+void ReadThreeNums(float &Num1, float &Num2, float &Num3) 
 {
     cout << "Enter First Number: ";
     cin >> Num1;

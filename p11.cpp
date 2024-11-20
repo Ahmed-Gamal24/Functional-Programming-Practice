@@ -56,7 +56,7 @@ void PrintAvg(float Avg)
     else
         cout << "You Failed" << endl;
 }
-
+ 
 
 
 int main()
