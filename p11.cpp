@@ -1,6 +1,8 @@
-// Required: 
+//-----------Required------------------------
 //  read three numbers
 //  print the Averaga of these three numbers
+//--------------------------------------------
+
 
 #include <iostream>
 #include <string>
@@ -32,7 +34,7 @@ float SumOfThreeNums(float Num1, float Num2, float Num3)
 float CalcAvg(float Num1, float Num2, float Num3)
 {
     float Avg = SumOfThreeNums(Num1,  Num2, Num3) / 3;
-    return (float) Avg;
+    return Avg;
 }
 
 

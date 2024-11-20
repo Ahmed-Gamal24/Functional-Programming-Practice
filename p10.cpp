@@ -1,6 +1,7 @@
-// Required: 
+//-----------Required------------------------
 //  read three numbers
 //  print the Averaga of these three numbers
+//--------------------------------------------
 
 #include <iostream>
 #include <string>
