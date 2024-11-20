@@ -5,6 +5,7 @@
     "string": "cpp",
     "ostream": "cpp",
     "cmath": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "problem_15": "cpp"
 }
 }
