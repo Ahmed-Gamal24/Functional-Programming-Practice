@@ -16,7 +16,7 @@ void ReadDimentions(float &Width, float &Height){
     cin >> Height;
 }
 
-float CalcArea(float Width, float Height){
+float CalcRectangleAreaByWidthAndHeight(float Width, float Height){
     float Area = Width * Height;
     return Area;
 }
@@ -30,7 +30,8 @@ int main()
 {
     float W, H;
     ReadDimentions(W, H);
-    PrintArea( CalcArea(W, H) );
+    PrintArea( CalcRectangleAreaByWidthAndHeight(W, H) );
+
 
     return 0;
 }
